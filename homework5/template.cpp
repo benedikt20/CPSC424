@@ -7,10 +7,10 @@
 #include <limits>
 
 // Include ParlayLib (adjust the path if needed)
-#include <parlay/primitives.h>
-#include <parlay/parallel.h>
-#include <parlay/sequence.h>
-#include <parlay/sort.h>
+#include "parlaylib/include/parlay/primitives.h"
+#include "parlaylib/include/parlay/parallel.h"
+#include "parlaylib/include/parlay/sequence.h"
+#include "parlaylib/include/parlay/utilities.h"
 
 // A simple 2D point structure
 struct Point2D {
