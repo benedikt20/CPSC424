@@ -149,7 +149,7 @@ int main(int argc, char** argv) {
 
   auto results = knn_search_all(root, data_points, query_points, k);
 
-  for (int q = 0; q < std::min(Q, 3); q++) {
+  for (int q = 0; q < Q; q++) {
     std::cout << "Query " << q << " : ("
               << query_points[q].x << ", "
               << query_points[q].y << ")\n";
